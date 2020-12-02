@@ -1,0 +1,146 @@
+
+table
+{
+	border: 3px solid #33cc33;
+	padding:5px;
+    text-align: center;
+}
+#mouseall
+{
+	padding-bottom: 50px;
+	width:100%;
+}
+.mh
+{
+	font-size:45px;
+	font-family: goldman;
+	font-weight: 200;
+/*
+	padding-left: 50px;
+	padding-right: 50px;
+*/
+	margin:0px;
+}
+.card
+{
+
+	margin:5px;
+    height:85px;
+    width:100px;
+    padding-top:15px;
+	border:none;
+	color:white;
+	font-size:70px;
+	background-image:linear-gradient(to left,#33cc33,#009933);
+	cursor: pointer;
+    text-align:center;
+    justify-content: center;
+    text-shadow:0px 2px 5px #333333;
+}
+@media screen and (max-width:800px)
+{
+	#mouseall
+{
+	padding-bottom: 50px;
+	width:90%;
+}
+.mh
+{
+	font-size:35px;
+	font-family: goldman;
+	font-weight: 200;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.card
+{
+
+	margin:5px;
+    height:70px;
+    width:85px;
+    padding-top:15px;
+	border:none;
+	color:white;
+	font-size:50px;
+	background-image:linear-gradient(to left,#33cc33,#009933);
+	cursor: pointer;
+    text-align:center;
+    justify-content: center;
+}
+}
+.card:hover
+{
+	box-shadow: 0px 2px 5px #333333 inset;
+}
+#score
+{
+	width:100px;
+	margin:10px;
+	height:50px;
+    border:none;
+	border-bottom:3px solid #333333;
+	background-color:inherit;
+	font-size:20px;
+	color:#333333;
+	margin:10px;
+	outline:none;
+}
+#replay
+{
+	width:150px;
+	margin:10px;
+	height:50px;
+	border:3px solid #333333;
+	background-color:inherit;
+	font-size:20px;
+	color:#333333;
+	margin:10px;
+	outline:none;
+}
+#replay:hover
+{
+	border:none;
+	background-image: linear-gradient(to right,#333333,#009933);
+	color:white;
+	cursor: pointer;
+	outline:none;
+}
+#start
+{
+	width:150px;
+	height:50px;
+	border:none;
+	background-image: linear-gradient(to right,#333333,#009933);
+	font-size:25px;
+	color:white;
+	cursor: pointer;
+	margin:10px;
+	outline:none;
+}
+#start:hover
+{
+	border:2px solid #009933;
+	background-image: inherit;
+	background-color:inherit;
+	color:#009933;
+}
+
+#mousehere
+{
+	color:black;
+	font-size:100px;
+	display:none;
+    position:absolute;
+}
+#timer
+{
+    color:#4d4d4d;
+    font-family:goldman;
+    font-size:50px;
+}
+#highscore
+{
+    font-size:30px;
+    color:#333333;
+    font-family: quicksand;
+}

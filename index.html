@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-----------Fonts----------------------------->	
+	<link href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Quicksand:200,400" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Goldman&&effect=emboss|3Dfloat" rel="stylesheet">
+<!---------------------Favicon------------------>
+	<link rel="stylesheet" href="mstyle.css">
+
+<title>
+	Mousi	
+</title>
+<!---------------Icons------------------------>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script type="text/javascript" src="mscript.js"></script>
+<!-----------------Styling----------------------------->
+<style type="text/css">
+
+	</style>
+</head>
+<body>
+<div id="mouseall" align="center">
+<div id="mousehere"><i onclick="bill()" class="fas fa-volleyball-ball"></i></div>
+	<table id="msg">
+		<tr><h3 class="mh"> Stop the Ball</h3></tr>
+		<tr><button id="start" onclick="startGame()"> Start</button></tr>
+		<tr>
+			<td>
+				<div id="1" class="card" > </div>
+			</td>
+			<td>
+				<div id="2" class="card" > </div>
+			</td>
+			<td>
+				<div id="3" class="card" > </div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div id="4" class="card" > </div>
+			</td>
+			<td>
+				<div id="5" class="card" > </div>
+			</td>
+			<td>
+				<div id="6" class="card" > </div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div id="7" class="card" > </div>
+			</td>
+			<td>
+				<div id="8" class="card" > </div>
+			</td>
+			<td>
+				<div id="9" class="card" > </div>
+			</td>
+		</tr>
+		<tr>
+		<button id="score" onclick="score()"> Score</button></tr>
+		<tr><button id="replay" onclick="replay()"> Replay</button>
+		</tr>
+	</table>
+    <div id="timer">100</div>
+    <div id="highscore"><span>High Score: </span><span id="hi">68</span></div>
+</div>
+</body>
+</html>
